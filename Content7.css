@@ -1,0 +1,179 @@
+.one{
+position: absolute;
+top: 4%;
+left:1%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight 1.5s ease-in-out infinite;
+}
+@keyframes floatLeftRight {
+    0%, 100% {
+        left: 0; /* Start and end position (left) */
+    }
+    50% {
+        left: 25px; /* Middle position (float right by 10px) */
+    }
+}
+
+
+.two{
+position: absolute;
+top:70%;
+left:10%;
+width: 100px;
+height:100px;
+transform: translate(-50%, -50%); /* Center the div */
+            animation: moveUpDown2 2s ease-in-out infinite;
+}
+@keyframes moveUpDown2 {
+    0%, 100% {
+        transform: translate(-50%, -50%); /* Start and end position (centered) */
+    }
+    50% {
+        transform: translate(-50%, 50%); /* Middle position (move down) */
+    }
+}
+
+.three{
+position: absolute;
+top:20%;
+left:20%;
+width: 100px;
+height: 100px;
+transform: translate(-70%, -70%); /* Center the div */
+            animation: moveUpDown3 1s ease-in-out infinite;
+}
+@keyframes moveUpDown3 {
+    0%, 100% {
+        transform: translate(-70%, -70%); /* Start and end position (centered) */
+    }
+    100% {
+        transform: translate(-70%, 70%); /* Middle position (move down) */
+    }
+}
+
+
+.four{
+position: absolute;
+top:55%;
+left:30%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight 4s ease-in-out infinite;
+}
+@keyframes floatLeftRight {
+    55%, 20% {
+        left: 0; /* Start and end position (left) */
+    }
+    55% {
+        left: 25px; /* Middle position (float right by 10px) */
+    }
+}
+
+
+.five{
+position: absolute;
+top:9%;
+left:40%;
+width: 100px;
+height: 100px;
+transform: translate(-50%, -50%); /* Center the div */
+            animation: moveUpDown5 1s ease-in-out infinite;
+}
+@keyframes moveUpDown5 {
+    0%, 100% {
+        transform: translate(-50%, -50%); /* Start and end position (centered) */
+    }
+    50% {
+        transform: translate(-50%, 50%); /* Middle position (move down) */
+    }
+}
+
+
+
+.six{
+position: absolute;
+top:90%;
+left:50%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight6 5s ease-in-out infinite;
+}
+@keyframes floatLeftRight6 {
+    50%, 50%{
+        left: 0; /* Start and end position (left) */
+    }
+    50% {
+        left: 25px; /* Middle position (float right by 10px) */
+    }
+}
+
+.seven{
+position: absolute;
+top:40%;
+left:60%;
+width: 100px;
+height: 100px;
+transform: translate(-50%, -50%); /* Center the div */
+            animation: moveUpDown 2s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translate(-50%, -50%); /* Start and end position (centered) */
+    }
+    50% {
+        transform: translate(-50%, calc(-50% + 100px)); /* Middle position (move down by 100px) */
+    }
+}
+    
+
+.eight{
+ position: absolute;
+ top:70%;
+left:70%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight8 10s ease-in-out infinite;
+
+}
+@keyframes floatLeftRight8{
+    0%, 100% {
+        left: 70%; 
+    }
+    50% {
+        left: calc(70% + 10px); 
+    }}
+    
+.nine{
+position: absolute;
+top: 15%;
+left:80%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight9 10s ease-in-out infinite;
+}
+@keyframes floatLeftRight9 {
+    90%, 100% {
+        left: 5; /* Start and end position (left) */
+    }
+    50% {
+        left: 2px; /* Middle position (float right by 10px) */
+    }
+}
+
+.ten{
+position: absolute;
+top:55%;
+left:90%;
+width: 100px;
+height: 100px;
+animation: floatLeftRight10 5s ease-in-out infinite;
+}
+@keyframes floatLeftRight10 {
+    50%, 50%{
+        left: 0; /* Start and end position (left) */
+    }
+    50% {
+        left: 25px; /* Middle position (float right by 10px) */
+    }
+}

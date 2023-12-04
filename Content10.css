@@ -1,0 +1,55 @@
+body{
+    background-color: #D4E4E4;
+    margin: 0; 
+    padding: 0
+}
+
+.text1{
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    top: 19%;
+    left: 49%;
+    font-size: larger;
+    letter-spacing: 4px;
+    z-index: 2;
+
+}
+
+.text2{
+    top: 80px;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    font-size: larger;
+    letter-spacing: 5px;
+    z-index: 2;
+}
+
+.Alice{
+    width: 580px;
+    height: 630px;
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    z-index: 3;
+}
+
+
+.Exit{
+    position: absolute;
+    top: 850px;
+    left: 1450px;
+    z-index: 3;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.BG{
+    width: 1550px;
+    height: 900px;
+}

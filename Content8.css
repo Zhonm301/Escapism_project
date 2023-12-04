@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+}
+.Exit{
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+
+}
+
+.BG{
+    width:1450px;
+    height: 800px;
+    position: absolute;
+    left: 20px;
+    padding-left: 10px;
+}
+
+.Text1{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    animation: moveUpDowns 5s ease-in-out infinite;
+}
+@keyframes moveUpDowns {
+    50%, 100% {
+        top: 0; /* Start and end position (top) */
+    }
+    100% {
+        top: 400px; /* Middle position (down) */
+    }
+}
+
+.floatText{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 800px;
+    left: 30px;
+    animation: floatAnimation 30s linear infinite; 
+}
+@keyframes floatAnimation {
+    0% {
+        left: 0; /* Start position */
+    }
+    50% {
+        left: calc(60% - 50px); /* Middle position */
+    }
+    
+}
+
+.Lasttext{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    z-index: 2;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top:600px;
+    left: 50px;
+    animation: moveUpDown 3s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        top: 0; /* Start and end position (top) */
+    }
+    50% {
+        top: 100px; /* Middle position (down) */
+    }
+}
