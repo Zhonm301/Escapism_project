@@ -1,0 +1,95 @@
+body{
+ background-color:#ffd8d8;
+}
+
+
+
+
+.Alice2{
+  
+  width: 550px;     
+  position: absolute;
+        left: 970px;
+        top: 90px;
+    }
+
+.Exit{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 820px;
+    left: 1500px; 
+}
+
+
+
+.Button{
+
+width: 300px;
+height: 85px;
+background-color: white;
+border: solid 3px black;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 35px;
+position: absolute;
+left: 400px;
+top: 600px;
+padding-top: 30px;
+ animation: floatAnimation 2s linear infinite; 
+
+}
+@keyframes floatAnimation {
+    0% {
+        margin-left: 0; 
+        margin-right: 20%; 
+    }
+    50% {
+        margin-left: 5px; 
+        margin-right: 0px; 
+    }
+    100% {
+        margin-left: 0; 
+        margin-right: 20px; 
+    }
+}
+
+.ERROR{
+    width: 700px;
+    height: 150px;
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    text-align: center;
+    padding-top: 5px;
+    z-index: 2;
+}
+.Text{
+    width: 2000px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    z-index: 3;
+    animation: floatAnimations 5s linear infinite; 
+}
+@keyframes floatAnimations {
+    0% {
+        margin-left: 0; /* Start with no left margin */
+        margin-right: 300px; /* Add right margin */
+    }
+    50% {
+        margin-left: 300px; /* Add left margin */
+        margin-right: 0; /* End with no right margin */
+    }
+    100% {
+        margin-left: 0; /* Reset left margin */
+        margin-right: 300px; /* Add right margin */
+    }
+}

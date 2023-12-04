@@ -1,0 +1,222 @@
+body{
+    background-color: blue;
+}
+.Exit{
+    position: absolute;
+    z-index: 1;
+    top: 900px;
+    left: 1450px;
+    width: -50px;
+    height: 20px;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+img{
+width: 1510px;
+height: 880px;
+position: absolute;
+top: 0px;
+left: 0;
+z-index: 1;
+}
+
+
+.Dayone {
+    position: relative;
+    width: 300px;
+    height: 200px;
+
+}
+.Top1, .Bottom1 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    transition: opacity 0.1s ease-in-out; /* Add a smooth transition */
+}
+.Bottom1 {
+    opacity: 0;
+}
+
+.Dayone:hover .Bottom1 {
+    opacity: 1;
+}
+
+
+
+.Daytwo{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 1%;
+    left: 20%;
+}
+
+.Top2, .Bottom2 {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom2 {
+    opacity: 0;
+}
+
+.Daytwo:hover .Bottom2 {
+    opacity: 1;
+}
+
+
+
+
+.Daythree:hover .Bottom3{
+    opacity: 1;
+}
+
+.Daythree {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+.Top3, .Bottom3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -305px;
+    left: 500px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom3 {
+    opacity: 0;
+}
+
+.Daythree:hover .Bottom3{
+    opacity: 1;
+}
+
+
+
+.Dayfour:hover .Bottom4{
+    opacity: 1;
+}
+
+.Dayfour {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+.Top4, .Bottom4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -437px;
+    left: 700px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom4 {
+    opacity: 0;
+}
+
+.Dayfour:hover .Bottom4{
+    opacity: 1;
+}
+
+
+
+
+.Dayfive:hover .Bottom5{
+    opacity: 1;
+}
+
+.Dayfive {
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+.Top5, .Bottom5 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -565px;
+    left: 880px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom5 {
+    opacity: 0;
+}
+
+.Dayfive:hover .Bottom5{
+    opacity: 1;
+}
+
+
+
+.Daysix:hover .Bottom6{
+    opacity: 1;
+}
+
+.Daysix{
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+.Top6, .Bottom6{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -695px;
+    left: 1065px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom6{
+    opacity: 0;
+}
+
+.Daysix:hover .Bottom6{
+    opacity: 1;
+}
+
+
+
+.Dayseven:hover .Bottom7{
+    opacity: 1;
+}
+
+.Dayseven{
+    position: relative;
+    width: 130px;
+    height: 130px;
+}
+
+.Top7, .Bottom7{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -825px;
+    left: 1260px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom7{
+    opacity: 0;
+}
+
+.Dayseven:hover .Bottom7{
+    opacity: 1;
+}
+
+

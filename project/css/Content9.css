@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(237, 239, 197);
+}
+.Alice{
+width: 650px;
+position: absolute;
+left: 400px;
+top: 200px;
+}
+
+.Bunny{
+    transform: rotate(180deg) scaleX(-1);
+width: 900px;
+position: absolute;
+top: 880px;
+left: 265px;
+}
+
+.Split{
+    width: 2200px;
+    height: 20px;
+    background-color: blue;
+    background: linear-gradient(to bottom, transparent 30%, #2b00ff 60%, #3300ff 60%, transparent 100%);
+    position: absolute;
+    top:871px ;
+    left: 200px;
+}
+.AliceText{
+position: absolute;
+left: 2114px;
+top: 835px;
+width: 200px;
+color: rgb(6, 0, 119);
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+animation: moveLeftRights 8s linear infinite;
+}
+@keyframes moveLeftRights {
+    0%, 100% {
+      left: 1210px;
+    }
+    50% {
+      left: 2200px;
+    }
+}
+
+.BunnyText{
+ position: absolute;
+ left: 2100px;
+ top: 875px;
+ width: 200px;
+color: rgb(6, 0, 119);
+transform: scaleX(-1);
+font-size: 40px;
+font-family: 'Courier New', Courier, monospace;
+padding: 10px;
+display: inline-block;
+animation: moveLeftRight 8s linear infinite;
+}
+@keyframes moveLeftRight {
+    0%, 100% {
+      left: 1200px;
+    }
+    50% {
+      left: 2200px;
+    }
+}
+
+.Glass{
+    width: 1000px;
+    height: 1990px;
+    background-color: skyblue;
+    opacity: 20%;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}

@@ -1,0 +1,142 @@
+body{
+    background-color:rgb(255, 255, 255);
+}
+.Button{
+    width: 430px;
+    height: 190px;
+    background-color: pink;
+    border-radius: 80px;
+    border: solid 3px blue;
+    opacity: 0.6;
+    text-align: center;
+    font-family:'Sometype Mono', monospace;
+    color: blue;
+    font-size: 120px;
+    position: absolute;
+    left: 500px;
+    top: 450px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+    transition: transform 0.4s ease;
+    animation: smoothGradients 10s linear infinite;
+    transition: transform 0.4s ease;
+    animation: floatAnimation 2s linear infinite; 
+}
+@keyframes floatAnimation {
+    0% {
+        margin-left: 0; /* Start with no left margin */
+        margin-right: 20%; /* Add right margin */
+    }
+    50% {
+        margin-left: 5px; /* Add left margin */
+        margin-right: 0px; /* End with no right margin */
+    }
+    100% {
+        margin-left: 0; /* Reset left margin */
+        margin-right: 20px; /* Add right margin */
+    }
+}
+
+
+
+.Button:hover{
+    transform: scale(1.1);
+}
+
+.Exit{
+font-family: 'Courier New', Courier, monospace;
+position: absolute;
+top: 820px;
+left: 1500px;
+}
+
+.Intro{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    width: fit-content;
+    background-color: pink;
+    border-radius: 20px;
+    font-size: 30px;
+    border: solid 2px blue;
+    opacity: 0.6;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    padding: 15px;
+    animation: smoothGradient 10s linear infinite;
+    transition: transform 0.4s ease;
+}
+@keyframes smoothGradient{
+    0% {
+        background-position: 0% 50%;
+        background-color: pink;
+        
+    }
+    25% {
+        background-position: 100% 50%;
+        background-color: white;
+    }
+    50% {
+        background-position: 0% 50%;
+        background-color: pink;
+    }
+    75% {
+        background-position: 100% 50%;
+        background-color: white;
+    }
+    100% {
+        background-position: 0% 50%;
+        background-color:pink;
+    }
+}
+.Text{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    width: fit-content;
+    background-color:pink;
+    border-radius: 20px;
+    font-size: 30px;
+    width: 990px;
+    height: 50px;
+    border: solid 2px blue;
+    opacity: 0.6;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    animation: smoothGradient 10s linear infinite;
+    transition: transform 0.4s ease;
+
+}
+@keyframes smoothGradient{
+    0% {
+        background-position: 0% 50%;
+        background-color: pink;
+        
+    }
+    25% {
+        background-position: 100% 50%;
+        background-color: white;
+    }
+    50% {
+        background-position: 0% 50%;
+        background-color: pink;
+    }
+    75% {
+        background-position: 100% 50%;
+        background-color: white;
+    }
+    100% {
+        background-position: 0% 50%;
+        background-color:pink;
+    }
+}
+
+.Alice{
+    width: 550px;
+    position: absolute;
+    left: 990px;
+    top: 105px;
+}

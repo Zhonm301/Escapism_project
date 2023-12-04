@@ -1,0 +1,310 @@
+body{
+background: #0d1f43; 
+ margin: 0; 
+ padding: 0;
+}
+
+h1{
+    font-family: 'Sometype Mono', monospace;
+    color: #ffffff;
+    font-size: 90px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 100px;
+    z-index: 2;
+   
+}
+
+
+
+h2{
+    color: #e8cdea;
+    font-family: 'Fragment Mono', monospace;
+    font-weight:300;
+    font-size: 23px;
+    
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    top: 220px;
+    z-index: 2;
+   
+}
+
+h3{
+    color: #e8cdea;
+    font-family: 'Fragment Mono', monospace;
+    font-weight:300;
+    font-size: 23px;
+    
+    text-align: left;
+    position: absolute;
+    left: 40px;
+    top: 700px;
+   
+}
+
+.Page1{
+    
+    position: absolute;
+    top: 15%;
+    left:560px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+    
+}
+
+
+.Page1:hover{
+    transform: scale(1.3);
+}
+
+
+.Page2{
+   
+    position: absolute;
+    top: 10%;
+    left: 715px;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page2:hover{
+    transform: scale(1.3);
+}
+
+.Page3{
+    
+    position: absolute;
+    top: 12%;
+    left: 865px;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page3:hover{
+    transform: scale(1.3);
+}
+
+.Page4{
+   
+    position: absolute;
+    top: 9%;
+    left: 1050px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page4:hover{
+transform: scale(1.3);
+}
+.Page5{
+    
+    position: absolute;
+    top: 150px;
+    left: 1250px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page5:hover{
+    transform: scale(1.3);
+}
+
+.Page6{
+   
+    position: absolute;
+    top: 330px;
+    left: 1350px;
+    border-radius: 100%;
+    
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page6:hover{
+    transform: scale(1.3);
+}
+.Page7{
+    
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    border-radius: 100%;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page7:hover{
+    transform: scale(1.3);
+}
+
+.Page8{
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    z-index: 3;
+    transition: transform 0.4s ease;
+}
+.Page8:hover{
+    transform: scale(1.3);
+}
+
+.Page9{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    z-index: 3;
+    transition: transform 0.4s ease;
+}
+.Page9:hover{
+   transform: scale(1.3);
+}
+
+.Page10{
+    position: absolute;
+    top: 600px;
+    left: 850px;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page10:hover{
+   transform: scale(1.3);
+}.Page1{
+    
+    position: absolute;
+    top: 15%;
+    left:560px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+    
+}
+
+
+.Page1:hover{
+    transform: scale(1.3);
+}
+
+
+.Page2{
+   
+    position: absolute;
+    top: 10%;
+    left: 715px;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page2:hover{
+    transform: scale(1.3);
+}
+
+.Page3{
+    
+    position: absolute;
+    top: 12%;
+    left: 865px;
+    cursor: pointer;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page3:hover{
+    transform: scale(1.3);
+}
+
+.Page4{
+   
+    position: absolute;
+    top: 9%;
+    left: 1050px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page4:hover{
+transform: scale(1.3);
+}
+.Page5{
+    
+    position: absolute;
+    top: 150px;
+    left: 1250px;
+    display: block;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page5:hover{
+    transform: scale(1.3);
+}
+
+.Page6{
+   
+    position: absolute;
+    top: 330px;
+    left: 1350px;
+    border-radius: 100%;
+    
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page6:hover{
+    transform: scale(1.3);
+}
+.Page7{
+    
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    border-radius: 100%;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page7:hover{
+    transform: scale(1.3);
+}
+
+.Page8{
+    position: absolute;
+    top: 370px;
+    left: 400px;
+    z-index: 3;
+    transition: transform 0.4s ease;
+}
+.Page8:hover{
+    transform: scale(1.3);
+}
+
+.Page9{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+    z-index: 3;
+    transition: transform 0.4s ease;
+}
+.Page9:hover{
+   transform: scale(1.3);
+}
+
+.Page10{
+    position: absolute;
+    top: 600px;
+    left: 850px;
+    transition: transform 0.4s ease;
+    z-index: 3;
+}
+.Page10:hover{
+   transform: scale(1.3);
+}
+
+.Alice{
+    width: 1650px;
+    height: 1000px;
+    position: absolute;
+    left: 250px;
+    
+}
