@@ -736,3 +736,41 @@ z-index: 1;
 .Daythirty:hover .Bottom30{
     opacity: 1;
 }
+
+
+@media only screen and (min-width: 480px) {
+    .Top, .Bottom {
+        width: 10%; /* Adjust size for smaller screens */
+    }
+    .img {
+        width: 80%; /* Adjust image size for smaller screens */
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .Top, .Bottom {
+        width: 15%; /* Adjust size for medium screens */
+    }
+    .img {
+        width: 70%; /* Adjust image size for medium screens */
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .Top, .Bottom {
+        width: 20%; /* Adjust size for large screens */
+    }
+    .img {
+        width: 60%; /* Adjust image size for large screens */
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .Top, .Bottom {
+        width: 25%; /* Adjust size for extra-large screens */
+    }
+    .img {
+        width: 50%; /* Adjust image size for extra-large screens */
+    }
+}
+
