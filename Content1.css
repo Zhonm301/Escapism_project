@@ -102,3 +102,22 @@ img{
             top: 16%;
         }
     }
+@media only screen and (min-width: 1921px) {
+    .text1, .text2, .Exit {
+        font-size: 22px; /* Adjust the font size accordingly */
+    }
+
+    .hi {
+        top: 15%; /* Adjust the position accordingly */
+    }
+}
+
+@media only screen and (min-width: 3841px) {
+    .text1, .text2, .Exit {
+        font-size: 24px; /* Adjust the font size accordingly */
+    }
+
+    .hi {
+        top: 14%; /* Adjust the position accordingly */
+    }
+}
