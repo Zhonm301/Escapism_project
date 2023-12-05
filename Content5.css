@@ -22,19 +22,17 @@ left: 0;
 z-index: 1;
 }
 
-
-.Dayone {
-    position: relative;
-    width: 300px;
-    height: 200px;
-
+.Dayone:hover .Bottom1{
+    opacity: 1;
 }
+
+
 .Top1, .Bottom1 {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: 95px;
-    left: 110px;
+    top: 85px;
+    left: 120px;
     transition: opacity 0.1s ease-in-out; /* Add a smooth transition */
 }
 .Bottom1 {
@@ -47,20 +45,12 @@ z-index: 1;
 
 
 
-.Daytwo{
-    position: absolute;
-    width: 300px;
-    height: 200px;
-    top: 1%;
-    left: 20%;
-}
-
 .Top2, .Bottom2 {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: 0px;
-    left: 300px;
+    top: 85px;
+    left: 305px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
 
@@ -79,18 +69,13 @@ z-index: 1;
     opacity: 1;
 }
 
-.Daythree {
-    position: relative;
-    width: 130px;
-    height: 130px;
-}
 
 .Top3, .Bottom3 {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -305px;
-    left: 500px;
+    top: 85px;
+    left: 495px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
 
@@ -108,18 +93,13 @@ z-index: 1;
     opacity: 1;
 }
 
-.Dayfour {
-    position: relative;
-    width: 130px;
-    height: 130px;
-}
 
 .Top4, .Bottom4 {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -437px;
-    left: 700px;
+    top: 85px;
+    left: 690px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
 
@@ -138,17 +118,12 @@ z-index: 1;
     opacity: 1;
 }
 
-.Dayfive {
-    position: relative;
-    width: 130px;
-    height: 130px;
-}
 
 .Top5, .Bottom5 {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -565px;
+    top: 85px;
     left: 880px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
@@ -167,18 +142,14 @@ z-index: 1;
     opacity: 1;
 }
 
-.Daysix{
-    position: relative;
-    width: 130px;
-    height: 130px;
-}
+
 
 .Top6, .Bottom6{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -695px;
-    left: 1065px;
+    top: 85px;
+    left: 1070px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
 
@@ -196,17 +167,13 @@ z-index: 1;
     opacity: 1;
 }
 
-.Dayseven{
-    position: relative;
-    width: 130px;
-    height: 130px;
-}
+
 
 .Top7, .Bottom7{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    top: -825px;
+    top: 85px;
     left: 1260px;
     transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
 }
@@ -220,3 +187,552 @@ z-index: 1;
 }
 
 
+
+.Dayeight:hover .Bottom8{
+    opacity: 1;
+}
+
+
+.Top8, .Bottom8{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom8{
+    opacity: 0;
+}
+
+.Dayeight:hover .Bottom8{
+    opacity: 1;
+}
+
+
+
+.Daynine:hover .Bottom9{
+    opacity: 1;
+}
+
+
+.Top9, .Bottom9{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 305px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom9{
+    opacity: 0;
+}
+
+.Daynine:hover .Bottom9{
+    opacity: 1;
+}
+
+
+.Dayten:hover .Bottom10{
+    opacity: 1;
+}
+
+
+.Top10, .Bottom10{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 495px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom10{
+    opacity: 0;
+}
+
+.Dayten:hover .Bottom10{
+    opacity: 1;
+}
+
+
+
+.Dayeleven:hover .Bottom11{
+    opacity: 1;
+}
+
+
+.Top11, .Bottom11{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 690px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom11{
+    opacity: 0;
+}
+
+.Dayeleven:hover .Bottom11{
+    opacity: 1;
+}
+
+
+
+.Daytwelve:hover .Bottom12{
+    opacity: 1;
+}
+
+
+.Top12, .Bottom12{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 880px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom12{
+    opacity: 0;
+}
+
+.Daytwelve:hover .Bottom12{
+    opacity: 1;
+}
+
+
+
+.Daythirteen:hover .Bottom13{
+    opacity: 1;
+}
+
+
+.Top13, .Bottom13{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 1070px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom13{
+    opacity: 0;
+}
+
+.Daythirteen:hover .Bottom13{
+    opacity: 1;
+}
+
+
+.Dayfourteen:hover .Bottom14{
+    opacity: 1;
+}
+
+
+.Top14, .Bottom14{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 250px;
+    left: 1260px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom14{
+    opacity: 0;
+}
+
+.Dayfourteen:hover .Bottom14{
+    opacity: 1;
+}
+
+
+
+.Dayfifthteen:hover .Bottom15{
+    opacity: 1;
+}
+
+
+.Top15, .Bottom15{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 120px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom15{
+    opacity: 0;
+}
+
+.Dayfifthteen:hover .Bottom15{
+    opacity: 1;
+}
+
+
+
+.Daysixteen:hover .Bottom16{
+    opacity: 1;
+}
+
+
+.Top16, .Bottom16{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 305px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom16{
+    opacity: 0;
+}
+
+.Daysixteen:hover .Bottom16{
+    opacity: 1;
+}
+
+
+
+.Dayseventeen:hover .Bottom17{
+    opacity: 1;
+}
+
+
+.Top17, .Bottom17{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 495px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom17{
+    opacity: 0;
+}
+
+.Dayseventen:hover .Bottom17{
+    opacity: 1;
+}
+
+
+
+.Dayeighteen:hover .Bottom18{
+    opacity: 1;
+}
+
+
+.Top18, .Bottom18{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 690px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom18{
+    opacity: 0;
+}
+
+.Dayeighteen:hover .Bottom18{
+    opacity: 1;
+}
+
+
+
+.Daynineteen:hover .Bottom19{
+    opacity: 1;
+}
+
+
+.Top19, .Bottom19{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 880px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom19{
+    opacity: 0;
+}
+
+.Daynineteen:hover .Bottom19{
+    opacity: 1;
+}
+
+
+
+.Daytwenty:hover .Bottom20{
+    opacity: 1;
+}
+
+
+.Top20, .Bottom20{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 410px;
+    left: 1070px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom20{
+    opacity: 0;
+}
+
+.Daytwenty:hover .Bottom20{
+    opacity: 1;
+}
+
+
+
+.Daytwentyone:hover .Bottom21{
+    opacity: 1;
+}
+
+
+.Top21, .Bottom21{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top:410px;
+    left:1260px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom21{
+    opacity: 0;
+}
+
+.Daytwentyone:hover .Bottom21{
+    opacity: 1;
+}
+
+
+
+.Daytwentytwo:hover .Bottom22{
+    opacity: 1;
+}
+
+
+.Top22, .Bottom22{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 120px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom22{
+    opacity: 0;
+}
+
+.Daytwentytwo:hover .Bottom22{
+    opacity: 1;
+}
+
+
+
+.Daytwentythree:hover .Bottom23{
+    opacity: 1;
+}
+
+
+.Top23, .Bottom23{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 305px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom23{
+    opacity: 0;
+}
+
+.Daytwentythree:hover .Bottom23{
+    opacity: 1;
+}
+
+
+
+.Daytwentyfour:hover .Bottom24{
+    opacity: 1;
+}
+
+
+.Top24, .Bottom24{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 495px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom24{
+    opacity: 0;
+}
+
+.Daytwentyfour:hover .Bottom24{
+    opacity: 1;
+}
+
+
+
+
+.Daytwentyfive:hover .Bottom25{
+    opacity: 1;
+}
+
+
+.Top25, .Bottom25{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 690px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom25{
+    opacity: 0;
+}
+
+.Daytwentyfive:hover .Bottom25{
+    opacity: 1;
+}
+
+
+
+.Daytwentysix:hover .Bottom26{
+    opacity: 1;
+}
+
+
+.Top26, .Bottom26{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 880px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom26{
+    opacity: 0;
+}
+
+.Daytwentysix:hover .Bottom26{
+    opacity: 1;
+}
+
+
+
+.Daytwentyseven:hover .Bottom27{
+    opacity: 1;
+}
+
+
+.Top27, .Bottom27{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 1070px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom27{
+    opacity: 0;
+}
+
+.Daytwentyseven:hover .Bottom27{
+    opacity: 1;
+}
+
+
+
+.Daytwentyeight:hover .Bottom28{
+    opacity: 1;
+}
+
+
+.Top28, .Bottom28{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 565px;
+    left: 1260px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom28{
+    opacity: 0;
+}
+
+.Daytwentyeight:hover .Bottom28{
+    opacity: 1;
+}
+
+
+
+.Daytwentynine:hover .Bottom29{
+    opacity: 1;
+}
+
+
+.Top29, .Bottom29{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 710px;
+    left: 120px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom29{
+    opacity: 0;
+}
+
+.Daytwentynine:hover .Bottom29{
+    opacity: 1;
+}
+
+
+
+.Daythirty:hover .Bottom30{
+    opacity: 1;
+}
+
+
+.Top30, .Bottom30{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 710px;
+    left: 305px;
+    transition: opacity 0.3s ease-in-out; /* Add a smooth transition */
+}
+
+.Bottom30{
+    opacity: 0;
+}
+
+.Daythirty:hover .Bottom30{
+    opacity: 1;
+}
