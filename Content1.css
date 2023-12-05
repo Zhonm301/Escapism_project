@@ -5,8 +5,7 @@ body{
 }
 
 .text1{
-    top: 80px;
-    left: 50px;
+    
     font-family: 'Courier New', Courier, monospace;
     color: white;
     position: absolute;
@@ -18,8 +17,7 @@ body{
 }
 
 .text2{
-    top: 80px;
-    left: 50px;
+    
     font-family: 'Courier New', Courier, monospace;
     color: white;
     position: absolute;
@@ -29,22 +27,15 @@ body{
     letter-spacing: 5px;
 }
 
-.image{
-    background-color:lightcyan;
-    width: 650px;
-    height: 550px;
-    position: absolute;
-    top: 20%;
-    left: 4%;
-}
+
 
 img{
     width:1520px;
     height: 1100px;
 }
 .hi{
-    width: 650px;
-    height: 550px;
+    width: 40%;
+    height: 63%;
     position: absolute;
     top: 20%;
     left: 4%;
@@ -55,20 +46,59 @@ img{
         font-family: 'Courier New', Courier, monospace;
         font-size: larger;
         position: absolute;
-        top: 30px;
-        left: 20px;     
+        top: 1%;
+        left: 1%;     
     }
 
 
 
 
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
-    .text1, .text2, .Exit {
-        font-size: 4vw; /* Adjust font size for smaller screens */
+    @media only screen and (max-width: 320px) {
+        .text1, .text2, .Exit {
+            font-size: 12px;
+        }
+    
+        .hi {
+            top: 30%;
+        }
     }
-
-    .image, .hi {
-        width: 90%; /* Adjust width for smaller screens */
+    
+    @media only screen and (max-width: 480px) {
+        .text1, .text2, .Exit {
+            font-size: 14px;
+        }
+    
+        .hi {
+            top: 25%;
+        }
     }
-}
+    
+    @media only screen and (max-width: 1024px) {
+        .text1, .text2, .Exit {
+            font-size: 16px;
+        }
+    
+        .hi {
+            top: 20%;
+        }
+    }
+    
+    @media only screen and (max-width: 1280px) {
+        .text1, .text2, .Exit {
+            font-size: 18px;
+        }
+    
+        .hi {
+            top: 18%;
+        }
+    }
+    
+    @media only screen and (max-width: 1440px) {
+        .text1, .text2, .Exit {
+            font-size: 20px;
+        }
+    
+        .hi {
+            top: 16%;
+        }
+    }
