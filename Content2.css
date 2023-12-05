@@ -266,18 +266,127 @@ p1{
  
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     .Text1 {
-        font-size: 4vw; /* Adjust font size for smaller screens */
+        font-size: 6vw;
+        top: 5%;
+        left: 5%;
+        width: 90%;
     }
 
-    .bunny1, .bunny2, .ugly1, .ugly2, .Face1, .Face2, .Horror1, .Horror2, .Abstract1, .Abstract2 {
-        width: 90%; /* Adjusted width for smaller screens */
-        max-width: none; /* Remove maximum width for smaller screens */
+    .bunny1,
+    .bunny2,
+    .ugly1,
+    .ugly2,
+    .Face1,
+    .Face2,
+    .Horror1,
+    .Horror2,
+    .Abstract1,
+    .Abstract2 {
+        width: 90%;
+        top: 50px;
+        left: 5%;
     }
 
-    .Circle1, .Circle2, .Circle3, .Circle4, .Circle5, .Circle6, .Circle7, .Circle8 {
-        width: 30%; /* Adjusted width for smaller screens */
-        max-width: none; /* Remove maximum width for smaller screens */
+    .Circle1,
+    .Circle2,
+    .Circle3,
+    .Circle4,
+    .Circle5,
+    .Circle6,
+    .Circle7,
+    .Circle8 {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    .Text1 {
+        font-size: 3vw;
+    }
+
+    .bunny1,
+    .bunny2,
+    .ugly1,
+    .ugly2,
+    .Face1,
+    .Face2,
+    .Horror1,
+    .Horror2,
+    .Abstract1,
+    .Abstract2 {
+        width: 70%;
+    }
+
+    .Circle1,
+    .Circle2,
+    .Circle3,
+    .Circle4,
+    .Circle5,
+    .Circle6,
+    .Circle7,
+    .Circle8 {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .Text1 {
+        font-size: 2.5vw;
+    }
+
+    .bunny1,
+    .bunny2,
+    .ugly1,
+    .ugly2,
+    .Face1,
+    .Face2,
+    .Horror1,
+    .Horror2,
+    .Abstract1,
+    .Abstract2 {
+        width: 50%;
+    }
+
+    .Circle1,
+    .Circle2,
+    .Circle3,
+    .Circle4,
+    .Circle5,
+    .Circle6,
+    .Circle7,
+    .Circle8 {
+        width: 15%;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    .Text1 {
+        font-size: 2vw;
+    }
+
+    .bunny1,
+    .bunny2,
+    .ugly1,
+    .ugly2,
+    .Face1,
+    .Face2,
+    .Horror1,
+    .Horror2,
+    .Abstract1,
+    .Abstract2 {
+        width: 40%;
+    }
+
+    .Circle1,
+    .Circle2,
+    .Circle3,
+    .Circle4,
+    .Circle5,
+    .Circle6,
+    .Circle7,
+    .Circle8 {
+        width: 10%;
     }
 }
